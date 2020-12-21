@@ -11,8 +11,7 @@
   "scripts": {
     "test": "jest --watchAll",
     "start": "parcel index.html --open",
-    "build": "parcel build index.html",
-    "deploy": "codesandbox ./"
+    "build": "parcel build index.html"
   },
   "jest": {
     "automock": false,

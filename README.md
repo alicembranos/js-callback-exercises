@@ -1,13 +1,13 @@
 `#js` `#callbacks` `#assembler-school` `#master-in-software-engineering`
 
-# Assembler School: JS Callbacks Exercises
+# Assembler School: JS Callback Exercises
 
 ## Getting Started
 
 First, you will need to clone the repo:
 
 ```bash
-$ git clone ...
+$ git clone https://github.com/assembler-school/js-callback-exercises/
 ```
 
 Then, you will have to install all the dependencies with npm:

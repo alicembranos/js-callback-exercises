@@ -22,12 +22,6 @@ You will probably have to execute the following command in the terminal line in 
 $ npm audit fix
 ```
 
-\* Here you can add more steps if they are required \*
-
-```bash
-...
-```
-
 ## Exercises
 
 Once you have completed al the steps of the [Getting Started](#getting-started) section, you will have to execute the following command that will prepare a localhost environment.

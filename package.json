@@ -1,7 +1,7 @@
 {
-  "name": "calbacks-intro-pill",
+  "name": "js-callbacks-exercises",
   "version": "1.0.0",
-  "description": "calbacks-intro-pill",
+  "description": "js-callbacks-exercises",
   "author": "Dani Lucaci <dani@assemblerschool.com>",
   "keywords": [
     "calbacks",
@@ -20,8 +20,8 @@
     ]
   },
   "dependencies": {
-    "axios": "^0.19.2",
-    "jquery": "3.4.1"
+    "axios": "^0.21.1",
+    "jquery": "^3.6.0"
   },
   "devDependencies": {
     "@babel/core": "7.2.0",

@@ -3,6 +3,7 @@ import $ from "jquery";
 import exercise01 from "./01-exercise";
 import exercise02 from "./02-exercise";
 import exercise03 from "./03-exercise";
+import exercise04 from "./04-exercise";
 
 $(document).ready(function () {
   $(".run-ex").on("click", function () {
@@ -16,6 +17,8 @@ $(document).ready(function () {
       exercise02();
     } else if (val === "03") {
       exercise03();
+    } else if (val === "04") {
+      exercise04();
     }
   });
 });
@@ -32,4 +35,8 @@ export function exercise02Task(cb) {
 
 export function exercise03Task(cb) {
   task(cb, { message: "Failed to fetch the data" }, "exercise 03 is done");
+}
+
+export function exercise04Task(cb) {
+  task(cb, "exercise 04 is done");
 }

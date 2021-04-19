@@ -14,6 +14,7 @@ import { exercise01Task } from "./main";
  */
 function exercise01() {
   // Complete the code of the function
+  exercise01Task(function () {});
 }
 
 export default exercise01;

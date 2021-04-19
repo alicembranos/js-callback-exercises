@@ -19,6 +19,6 @@ describe("04-exercise", () => {
     jest.runAllTimers();
 
     expect(timeoutSpy.mock.calls[0][0]).toEqual(expect.any(Function));
-    expect(timeoutSpy.mock.calls[0][1]).toBe(1000);
+    expect(timeoutSpy.mock.calls[0][1]).toBe(500);
   });
 });

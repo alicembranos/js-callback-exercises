@@ -1,3 +1,7 @@
+/**
+ * @jest-environment jsdom
+ */
+
 import $ from "jquery";
 import exercise02 from "../02-exercise";
 

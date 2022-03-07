@@ -6,11 +6,11 @@
   "keywords": [
     "calbacks",
     "basics",
-    "assemblerschool"
+    "assembler-institute"
   ],
   "scripts": {
-    "test": "jest --watchAll",
     "start": "parcel index.html --open",
+    "test": "jest --watchAll",
     "build": "parcel build index.html"
   },
   "jest": {
@@ -20,18 +20,18 @@
     ]
   },
   "dependencies": {
-    "axios": "^0.21.1",
-    "jquery": "^3.6.0"
+    "axios": "0.26.0",
+    "jquery": "3.6.0"
   },
   "devDependencies": {
-    "@babel/core": "7.2.0",
-    "@babel/preset-env": "^7.9.5",
-    "@types/bootstrap": "^4.3.2",
-    "@types/jest": "^25.2.1",
-    "@types/jquery": "^3.3.38",
-    "babel-jest": "^25.4.0",
-    "jest": "^25.4.0",
-    "jest-fetch-mock": "^3.0.3",
-    "parcel-bundler": "^1.12.4"
+    "@babel/core": "7.17.5",
+    "@parcel/babel-preset-env": "2.3.2",
+    "@types/bootstrap": "5.1.9",
+    "@types/jest": "27.4.1",
+    "@types/jquery": "3.5.14",
+    "babel-jest": "27.5.1",
+    "jest": "27.5.1",
+    "jest-fetch-mock": "3.0.3",
+    "parcel": "2.3.2"
   }
 }

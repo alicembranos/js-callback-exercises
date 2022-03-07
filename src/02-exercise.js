@@ -1,5 +1,4 @@
-import $ from "jquery";
-import { exercise02Task } from "./main";
+import { exercise02Task } from './main';
 
 /**
  * Execute the `exercise02Task` function and provide
@@ -11,8 +10,6 @@ import { exercise02Task } from "./main";
  *
  * The `p` element should be appended as the child of
  * the `.ex-container` div element
- *
- * You can use jQuery to create the element
  */
 function exercise02() {
   // Complete the code of the function

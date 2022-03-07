@@ -1,3 +1,7 @@
+/**
+ * @jest-environment jsdom
+ */
+
 import exercise04 from "../04-exercise";
 
 jest.useFakeTimers();

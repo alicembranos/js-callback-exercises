@@ -17,6 +17,15 @@
     "automock": false,
     "setupFiles": [
       "./setupJest.js"
+    ],
+    "transform": {
+      ".+\\.(css|styl|less|sass|scss|png|jpg|ttf|woff|woff2)$": "jest-transform-stub",
+      "^.+\\.js$": "babel-jest"
+    }
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
     ]
   },
   "dependencies": {
@@ -25,13 +34,14 @@
   },
   "devDependencies": {
     "@babel/core": "7.17.5",
-    "@parcel/babel-preset-env": "2.3.2",
+    "@babel/preset-env": "7.16.11",
     "@types/bootstrap": "5.1.9",
     "@types/jest": "27.4.1",
     "@types/jquery": "3.5.14",
     "babel-jest": "27.5.1",
     "jest": "27.5.1",
     "jest-fetch-mock": "3.0.3",
+    "jest-transform-stub": "2.0.0",
     "parcel": "2.3.2"
   }
 }

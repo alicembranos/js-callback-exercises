@@ -24,7 +24,7 @@ $ npm audit fix
 
 ## Exercises
 
-Once you have completed al the steps of the [Getting Started](#getting-started) section, you will have to execute the following command that will prepare a localhost environment.
+Once you have completed all the steps of the [Getting Started](#getting-started) section, you will have to execute the following command that will prepare a localhost environment.
 
 The command will compile all the necessary assets into a new folder called [dist](./dist) and it will open a localhost server that allows you to do the exercises without having to reload the page:
 
@@ -32,7 +32,7 @@ The command will compile all the necessary assets into a new folder called [dist
 npm run start
 ```
 
-Finally you must open a new terminal (you leave the previous one open since it has the test server running).
+Finally you have to open a new terminal (you must leave the previous one open, since it has the test server running).
 
 In this new terminal you will have to execute the following command, which will allow you to know in real time if you have correctly implemented the exercises.
 

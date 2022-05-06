@@ -13,6 +13,14 @@ import { exercise02Task } from './main';
  */
 function exercise02() {
   // Complete the code of the function
+  exercise02Task(result => {
+    const container = document.querySelector('.ex-container');
+    const pElement = document.createElement('p');
+    pElement.textContent = result;
+    pElement.classList.add('exercise-02');
+    container.appendChild(pElement);
+  })
+
 }
 
 export default exercise02;

@@ -1,4 +1,6 @@
-import { exercise03Task } from './main';
+import {
+  exercise03Task
+} from './main';
 
 /**
  * Execute the `exercise03Task` function and provide
@@ -23,6 +25,19 @@ import { exercise03Task } from './main';
  */
 function exercise03() {
   // Complete the code of the function
+  exercise03Task((error, result) => {
+    const container = document.querySelector('.ex-container');
+    const pElement = document.createElement('p');
+    if (error) {
+      pElement.textContent = error.message;
+      pElement.classList.add('exercise-03');
+      container.appendChild(pElement);
+    } else {
+      pElement.textContent = result;
+      pElement.classList.add('exercise-03');
+      container.appendChild(pElement);
+    }
+  });
 }
 
 export default exercise03;

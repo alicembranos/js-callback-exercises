@@ -1,4 +1,6 @@
-import { exercise04Task } from "./main";
+import {
+  exercise04Task
+} from "./main";
 /**
  * Execute a setTimeout function after 500ms that executes any code
  *
@@ -8,6 +10,10 @@ import { exercise04Task } from "./main";
  */
 function exercise04() {
   // Complete the code of the function
+  setTimeout(() => {
+    console.log("hello")
+  }, 500);
+
 }
 
 export default exercise04;

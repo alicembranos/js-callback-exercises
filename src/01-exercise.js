@@ -11,7 +11,13 @@ import { exercise01Task } from './main';
  */
 function exercise01() {
   // Complete the code of the function
-  exercise01Task(function () {});
+  exercise01Task(function () {
+    const container = document.querySelector('.ex-container');
+    const pElement = document.createElement('p');
+    pElement.textContent = `exercise-01 is done`;
+    pElement.classList.add('exercise-01');
+    container.appendChild(pElement);
+  });
 }
 
 export default exercise01;

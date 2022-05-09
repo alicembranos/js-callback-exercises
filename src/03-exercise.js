@@ -30,13 +30,11 @@ function exercise03() {
     const pElement = document.createElement('p');
     if (error) {
       pElement.textContent = error.message;
-      pElement.classList.add('exercise-03');
-      container.appendChild(pElement);
     } else {
       pElement.textContent = result;
-      pElement.classList.add('exercise-03');
-      container.appendChild(pElement);
     }
+    pElement.classList.add('exercise-03');
+    container.appendChild(pElement);
   });
 }
 
